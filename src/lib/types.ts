@@ -13,8 +13,20 @@ export interface Database {
     Tables: {
       pledges: {
         Row: PledgeSignature;
-        Insert: Omit<PledgeSignature, 'id' | 'created_at'>;
-        Update: Partial<Omit<PledgeSignature, 'id' | 'created_at'>>;
+        Insert: {
+          name: string;
+          city: string;
+          team_name?: string | null;
+          signed_at: string;
+          is_public: boolean;
+        };
+        Update: Partial<{
+          name: string;
+          city: string;
+          team_name?: string | null;
+          signed_at: string;
+          is_public: boolean;
+        }>;
       };
     };
   };
