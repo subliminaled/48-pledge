@@ -8,6 +8,9 @@
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
+
+# corrupted types file
+src/lib/database.types.ts
 !.yarn/versions
 
 # testing
