@@ -1,2 +1,0 @@
-# Exclude corrupted database types file
-src/lib/database.types.ts

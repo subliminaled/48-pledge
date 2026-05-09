@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Hero placeholder image</title>
+  <desc id="heroDesc">A placeholder illustration for the home page hero section.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="48" fill="url(#bg)" />
+  <rect x="60" y="80" width="1080" height="470" rx="36" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="2" />
+  <rect x="120" y="140" width="960" height="170" rx="28" fill="rgba(255,255,255,0.08)" />
+  <rect x="120" y="340" width="640" height="150" rx="28" fill="rgba(255,255,255,0.08)" />
+  <rect x="800" y="340" width="200" height="150" rx="28" fill="rgba(248,113,113,0.15)" />
+  <rect x="1020" y="340" width="60" height="150" rx="28" fill="rgba(59,130,246,0.2)" />
+  <path d="M150 320c120-80 260-80 380 0s260 80 380 0" fill="none" stroke="url(#accent)" stroke-width="18" stroke-linecap="round" opacity="0.9" />
+  <text x="50%" y="240" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="700" fill="#f8fafc">Hero Image</text>
+  <text x="50%" y="310" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="28" fill="#cbd5e1">A placeholder illustration for the home hero section</text>
+  <text x="180" y="470" font-family="Inter, system-ui, sans-serif" font-size="26" fill="#e2e8f0">Your story. Your pledge. No AI.</text>
+  <text x="180" y="510" font-family="Inter, system-ui, sans-serif" font-size="22" fill="#9ca3af">This space can be replaced with the final hero graphic later.</text>
+</svg>
